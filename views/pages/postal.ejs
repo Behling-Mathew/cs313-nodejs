@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Postage Results | Week 9 Prove</title>
+    <meta name="description" content="Displays the results of the weight and type of shipping method.">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+</head>
+
+<style>
+    body {
+        background: #000000;
+        color: white;
+    }
+
+    h1.hello {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Source Code Pro', monospace;
+        color: #ffffff;
+        font-size: 3.2rem;
+        padding-top: 30px;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .green {
+        color: green;
+    }
+</style>
+
+<body>
+    <main>
+        <div>
+            <h1>Results Page</h1> 
+            <h1 class='hello'>Your <%= method %> postage weighing <%= ounces %> oz. <br> is priced at: <span class="green"><%= rate %></span></h1>
+            <img src='https://media0.giphy.com/media/6wcBC9tsubD5jrDL6g/giphy.gif?cid=790b76115d0e6d5a4d515a576bc1b31a&rid=giphy.gif' width=300 alt='Mail Box'>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
